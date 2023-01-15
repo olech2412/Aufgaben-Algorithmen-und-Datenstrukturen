@@ -10,6 +10,12 @@ public class Main {
 
     /**
      * Sortiert ein Array mit dem BubbleSort Algorithmus
+     *
+     * Das Laufzeitverhalten von Bubble sort ist O(n^2) im worst-case und im average-case.
+     * Das bedeutet, dass die Zeit, die der Algorithmus benötigt, um eine Liste mit n Elementen zu sortieren,
+     *      quadratisch zunimmt, je größer die Liste wird.
+     * Dies liegt daran, dass der Algorithmus jedes Element mit jedem anderen Element im Array vergleicht und tauscht,
+     *      wenn es in der falschen Reihenfolge ist, was insgesamt n^2 Vergleiche und Vertauschungen erfordert.
      * @param arr
      */
     public static void bubbleSort(int[] arr) {
